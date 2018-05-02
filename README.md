@@ -15,11 +15,15 @@ The goals / steps of this project are the following:
 * Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
 * Summarize the results with a written report
 
+Look at report for details regarding each step.
+
 Improvements Suggested 
 ---
 1) Use nonlinear activation between fully connected layers of the Nvidia End-to-End architecture.
 2) Use side cameras, brightness augmentation, shadow augmentation, and horizontal and vertical shifts. https://chatbotslife.com/using-augmentation-to-mimic-human-driving-496b569760a9
 https://devblogs.nvidia.com/deep-learning-self-driving-cars/
+
+
 
 
 ### Dependencies
@@ -28,11 +32,6 @@ This lab requires:
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
 The lab enviroment can be created with CarND Term1 Starter Kit. Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) for the details.
-
-The following resources can be found in this github repository:
-* drive.py
-* video.py
-* writeup_template.md
 
 The simulator can be downloaded from the classroom. In the classroom, we have also provided sample data that you can optionally use to help train your model.
 
@@ -104,7 +103,3 @@ Will run the video at 48 FPS. The default FPS is 60.
 
 ### Tips
 - Please keep in mind that training images are loaded in BGR colorspace using cv2 while drive.py load images in RGB to predict the steering angles.
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
